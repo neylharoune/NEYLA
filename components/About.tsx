@@ -28,8 +28,8 @@ export default function About() {
         <motion.div initial={{ opacity: 0, x: -20 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7, delay: 0.15 }}>
           <div className="space-y-4 text-[0.97rem] leading-[1.92] text-muted font-light">
             <p>Étudiante en <span className="text-ink font-medium">L3 Informatique</span> à l'Université de Rennes, candidate en Master. Passionnée par la conception de systèmes, du bas niveau matériel au développement web.</p>
-            <p>Mon parcours m'a amenée de <span className="text-ink font-medium">Tizi Ouzou</span> à <span className="text-ink font-medium">Angers</span> puis <span className="text-ink font-medium">Rennes</span>, avec une formation solide en algorithmique, structures de données, systèmes et réseaux.</p>
-            <p>Trilingue (français, anglais B2, kabyle/arabe), j'aborde les problèmes avec rigueur et curiosité.</p>
+            <p>Mon parcours m&apos;a amenée de <span className="text-ink font-medium">Tizi Ouzou</span> à <span className="text-ink font-medium">Angers</span> puis <span className="text-ink font-medium">Rennes</span>, avec une formation solide en algorithmique, structures de données, systèmes et réseaux.</p>
+            <p>Trilingue (français, anglais B2, kabyle/arabe), j&apos;aborde les problèmes avec rigueur et curiosité.</p>
           </div>
 
           <div className="mt-10 space-y-5">
